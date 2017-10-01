@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export CMD='./index.sh'
+CMD="./index.sh"
 
-@test 'first test' {
+@test "first test" {
     run ${CMD}
     [ "$output" = "first bash" ] 
 }
